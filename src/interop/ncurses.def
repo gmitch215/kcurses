@@ -1,0 +1,9 @@
+package = ncurses
+
+headers = ncurses.h term.h
+headerFilter = ncurses.h curses.h term.h
+
+compilerOpts.osx = -I/opt/homebrew/opt/ncurses/include
+linkerOpts.osx  = -L/opt/homebrew/opt/ncurses/lib -lncurses
+
+linkerOpts.linux = -lncurses

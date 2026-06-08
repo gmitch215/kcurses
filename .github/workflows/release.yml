@@ -63,6 +63,9 @@ jobs:
       - name: Install ncurses (Linux)
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y libncurses-dev
+      - name: Install ncurses (macOS)
+        if: runner.os == 'macOS'
+        run: brew install ncurses
       - name: Publish Kotlin Multiplatform to Maven Central
         if: ${{ matrix.is_main && github.ref_name == 'master' }}
         shell: bash

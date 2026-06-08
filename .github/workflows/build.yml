@@ -76,6 +76,9 @@ jobs:
       - name: Install ncurses (Linux)
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y libncurses-dev
+      - name: Install ncurses (macOS)
+        if: runner.os == 'macOS'
+        run: brew install ncurses
       - name: Build with Gradle
         run: ./gradlew clean assemble
       - name: Archive Build Artifacts
@@ -145,6 +148,9 @@ jobs:
       - name: Install ncurses (Linux)
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y libncurses-dev
+      - name: Install ncurses (macOS)
+        if: runner.os == 'macOS'
+        run: brew install ncurses
       - name: Test Project
         run: ./gradlew check
       - name: Archive Test Artifacts
@@ -245,6 +251,9 @@ jobs:
       - name: Install ncurses (Linux)
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y libncurses-dev
+      - name: Install ncurses (macOS)
+        if: runner.os == 'macOS'
+        run: brew install ncurses
       - name: Publish Kotlin Multiplatform to GitHub Packages
         if: ${{ matrix.is_main && github.ref_name == 'master' }}
         shell: bash

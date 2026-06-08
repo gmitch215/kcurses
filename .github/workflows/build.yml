@@ -31,6 +31,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     needs: setup
     timeout-minutes: 360
+    name: build (${{ matrix.name }})
 
     permissions:
       contents: read
@@ -99,6 +100,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 360
     needs: setup
+    name: test (${{ matrix.name }})
 
     permissions:
       contents: read

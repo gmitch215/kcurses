@@ -1,8 +1,20 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-$dokka.location:kcurses////PointingToDeclaration/kcurses/kcurses/index.html
-$dokka.location:kcurses//end/#/PointingToDeclaration/kcurses/kcurses/end.html
-$dokka.location:kcurses//keypad/#kotlin.Boolean/PointingToDeclaration/kcurses/kcurses/keypad.html
-$dokka.location:kcurses//noLineBuffering/#/PointingToDeclaration/kcurses/kcurses/no-line-buffering.html
-$dokka.location:kcurses//start/#/PointingToDeclaration/kcurses/kcurses/start.html
-kcurses
+$dokka.location:kcurses.interop////PointingToDeclaration/kcurses/kcurses.interop/index.html
+$dokka.location:kcurses.interop//addCharacter/#kotlin.Char/PointingToDeclaration/kcurses/kcurses.interop/add-character.html
+$dokka.location:kcurses.interop//addString/#kotlin.String/PointingToDeclaration/kcurses/kcurses.interop/add-string.html
+$dokka.location:kcurses.interop//beginColor/#/PointingToDeclaration/kcurses/kcurses.interop/begin-color.html
+$dokka.location:kcurses.interop//canChangeColors/#/PointingToDeclaration/kcurses/kcurses.interop/can-change-colors.html
+$dokka.location:kcurses.interop//createColorPair/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/kcurses/kcurses.interop/create-color-pair.html
+$dokka.location:kcurses.interop//disableEcho/#/PointingToDeclaration/kcurses/kcurses.interop/disable-echo.html
+$dokka.location:kcurses.interop//disableLineBuffering/#/PointingToDeclaration/kcurses/kcurses.interop/disable-line-buffering.html
+$dokka.location:kcurses.interop//enableEcho/#/PointingToDeclaration/kcurses/kcurses.interop/enable-echo.html
+$dokka.location:kcurses.interop//enableLineBuffering/#/PointingToDeclaration/kcurses/kcurses.interop/enable-line-buffering.html
+$dokka.location:kcurses.interop//end/#/PointingToDeclaration/kcurses/kcurses.interop/end.html
+$dokka.location:kcurses.interop//getCharacter/#/PointingToDeclaration/kcurses/kcurses.interop/get-character.html
+$dokka.location:kcurses.interop//hasColors/#/PointingToDeclaration/kcurses/kcurses.interop/has-colors.html
+$dokka.location:kcurses.interop//keypad/#kotlin.Boolean/PointingToDeclaration/kcurses/kcurses.interop/keypad.html
+$dokka.location:kcurses.interop//reassignColor/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/kcurses/kcurses.interop/reassign-color.html
+$dokka.location:kcurses.interop//start/#/PointingToDeclaration/kcurses/kcurses.interop/start.html
+$dokka.location:kcurses.interop//useColorPair/#kotlin.Int/PointingToDeclaration/kcurses/kcurses.interop/use-color-pair.html
+kcurses.interop

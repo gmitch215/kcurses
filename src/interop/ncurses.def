@@ -6,5 +6,5 @@ headerFilter = ncurses.h curses.h term.h
 compilerOpts.osx = -I/opt/homebrew/opt/ncurses/include
 linkerOpts.osx  = -L/opt/homebrew/opt/ncurses/lib -lncurses
 
-compilerOpts.linux = -I/usr/include -I/usr/include/x86_64-linux-gnu -I/usr/include/aarch64-linux-gnu
+compilerOpts.linux = -I/usr/include -I/usr/include/x86_64-linux-gnu
 linkerOpts.linux = -lncurses

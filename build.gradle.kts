@@ -42,7 +42,6 @@ kotlin {
 
 	when {
 		hostOs.contains("linux") && isX64 -> linuxX64()
-		hostOs.contains("linux") && isArm64 -> linuxArm64()
 		isMac && isArm64 -> macosArm64()
 		else -> throw GradleException(
 			"Host OS '$hostOs' with architecture '$hostArch' is not supported for native compilation.",

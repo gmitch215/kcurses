@@ -26,7 +26,7 @@ Linux.
 ### Host-detection target config
 
 `build.gradle.kts` configures **exactly one** Kotlin/Native target at a time, chosen from the host's OS + arch (
-`linuxX64`, `linuxArm64`, `macosArm64`). You cannot build a target whose host you aren't running on locally —
+`linuxX64`, `macosArm64`). You cannot build a target whose host you aren't running on locally —
 multi-target coverage happens in CI via separate runners, not via cross-compilation.
 
 The Xcode SDK include dir is only injected into the cinterop block for `macos*` targets; Linux relies on default header

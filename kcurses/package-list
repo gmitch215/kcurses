@@ -1,0 +1,8 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:kcurses////PointingToDeclaration/kcurses/kcurses/index.html
+$dokka.location:kcurses//end/#/PointingToDeclaration/kcurses/kcurses/end.html
+$dokka.location:kcurses//keypad/#kotlin.Boolean/PointingToDeclaration/kcurses/kcurses/keypad.html
+$dokka.location:kcurses//noLineBuffering/#/PointingToDeclaration/kcurses/kcurses/no-line-buffering.html
+$dokka.location:kcurses//start/#/PointingToDeclaration/kcurses/kcurses/start.html
+kcurses

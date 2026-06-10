@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
 	kotlin("multiplatform") version "2.4.0"
-	id("org.jetbrains.dokka") version "2.0.0"
+	id("org.jetbrains.dokka") version "2.2.0"
 	id("com.vanniktech.maven.publish") version "0.36.0"
 
 	`maven-publish`

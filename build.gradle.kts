@@ -65,6 +65,12 @@ kotlin {
 			}
 		}
 	}
+
+	sourceSets {
+		commonTest.dependencies {
+			implementation(kotlin("test"))
+		}
+	}
 }
 
 fun KotlinMultiplatformExtension.configureSourceSets() {

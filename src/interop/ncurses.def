@@ -7,4 +7,4 @@ compilerOpts.osx = -I/opt/homebrew/opt/ncurses/include
 linkerOpts.osx  = -L/opt/homebrew/opt/ncurses/lib -lncurses
 
 compilerOpts.linux = -I/usr/include -I/usr/include/x86_64-linux-gnu
-linkerOpts.linux = -L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -lncurses -ltinfo
+linkerOpts.linux = -L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -lncurses -ltinfo --allow-shlib-undefined
